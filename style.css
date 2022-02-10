@@ -1,0 +1,202 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap');
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: beige;
+    }
+    
+    header {
+        background-color: blue;
+        width: 100vw;
+        position: fixed;
+    }
+    
+    .header-text {
+        text-align: center;
+        color: white;
+        padding: 0.8rem 0;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: beige;
+    }
+    
+    li {
+        float: right;
+        /*The float property specifies whether an element should float to the left, right, or not at all. Absolutely positioned elements ignore the float property! Elements next to a floating element will flow around it. */
+    }
+    
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: solid;
+    }
+    
+    li a.active {
+        color: white;
+        background-color: maroon;
+    }
+    
+    .pics {
+        width: 50%;
+        float: right;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .textbox {
+        background-color: beige;
+        width: 300px;
+        border: 15px solid blue;
+        padding: 50px;
+        margin: 20px;
+    }
+    
+    .forests {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .forests img {
+        vertical-align: middle;
+    }
+    
+    .forests .content {
+        position: absolute;
+        /* Position the background text */
+        bottom: 0;
+        /* At the bottom. Use top:0 to append it to the top */
+        background: rgb(0, 0, 0);
+        /* Fallback color */
+        background: rgba(0, 0, 0, 0.5);
+        /* Black background with 0.5 opacity */
+        color: #f1f1f1;
+        /* Grey text */
+        width: 100%;
+        /* Full width */
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 820px;
+    }
+    
+    .animals {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .animals img {
+        vertical-align: middle;
+    }
+    
+    .animals .contain {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 785px;
+    }
+    
+    .water {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .water img {
+        vertical-align: middle;
+    }
+    
+    .water .con {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 820px;
+    }
+    
+    .air {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .air img {
+        vertical-align: middle;
+        filter: blur(7px);
+        -webkit-filter: blur(7px);
+    }
+    
+    .air .cont {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 300px;
+    }
+    
+    .soil {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .soil img {
+        vertical-align: middle;
+        filter: blur(7px);
+        -webkit-filter: blur(7px);
+    }
+    
+    .soil .contents {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 355px;
+    }
+    
+    footer {
+        height: 10vh;
+        background-color: blue;
+        text-align: center;
+        padding: 0.8rem 0;
+        color: white;
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    th,
+    td {
+        padding: 5px
+    }
+    
+    button {
+        float: left;
+    }
